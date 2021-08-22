@@ -54,7 +54,7 @@ function EditModalDevice(props) {
     console.log("data sau khi edit device by admin:", v, clone);
     // console.log("clone:", clone);
     const onSuccess = ({ data }) => {
-      notifiSuccess("Edi successfully!");
+      notifiSuccess("Edit successfully!");
       setShowEditModal(false);
       props.updateEdit(v);
     };
