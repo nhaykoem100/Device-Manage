@@ -1,0 +1,7 @@
+.header-title {
+  background: while;
+  min-height: 100px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}

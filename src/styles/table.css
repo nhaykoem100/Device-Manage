@@ -1,0 +1,8 @@
+.table {
+  padding: 0px calc(10% + 50px);
+}
+
+.ant-table {
+  /* min-height: 381px; */
+  height: 425px;
+}

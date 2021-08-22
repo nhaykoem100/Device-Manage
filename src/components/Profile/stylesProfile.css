@@ -1,0 +1,33 @@
+/*
+1. 1890ff
+2. 001529
+*/
+
+.Menu-item-profile:hover {
+  background-color: #1890ff !important;
+}
+
+.Menu-item-profile {
+  background-color: #001529 !important;
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.ant-modal-header {
+  text-align: center;
+}
+
+.profile-form-item-pw {
+}
+
+.pw-btn-change {
+  margin-top: 4px;
+}
+
+/* .ant-menu-item:hover {
+  background-color: #001529;
+} */
+
+/* .ant-menu.ant-menu-dark .ant-menu-item-selected,
+.ant-menu-submenu-popup.ant-menu-dark .ant-menu-item-selected {
+  background-color: #001529;
+} */

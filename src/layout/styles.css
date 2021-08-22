@@ -1,0 +1,17 @@
+.Menu-header {
+  padding-left: 10%;
+  width: 100%;
+}
+
+.Header-Nav {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.Menu-logout {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 10%;
+}
