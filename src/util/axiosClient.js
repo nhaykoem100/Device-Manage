@@ -2,8 +2,8 @@ import axios from "axios";
 import queryString from "query-string";
 
 const axiosClient = axios.create({
-  // baseURL: "http://127.0.0.1:8000/",
-  baseURL: "https://devicemanagerapp.herokuapp.com/",
+  baseURL: "http://127.0.0.1:8000/",
+  // baseURL: "https://devicemanagerapp.herokuapp.com/",
   headers: {
     "Content-type": "application/json",
     // "Access-Control-Allow-Origin": "*",

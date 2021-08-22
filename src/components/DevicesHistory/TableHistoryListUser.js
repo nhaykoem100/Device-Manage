@@ -314,7 +314,7 @@ function TableHistoryListUser(props) {
               "15",
               "20",
             ],
-            defaultPageSize: ["5"],
+            defaultPageSize: ["4"],
           }}
         />
       </div>
