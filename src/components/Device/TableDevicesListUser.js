@@ -127,11 +127,13 @@ function TableDevicesListUser(props) {
   const [searchDeviceEmail, setsearchDeviceEmail] = useState("");
   const [searchDeviceDisplayName, setsearchDeviceDisplayName] = useState("");
   const updateSearchDeviceName = (v) => {
+    // console.log(v);
     const params = {
       name: v,
       email: searchDeviceEmail,
       displayname: searchDeviceDisplayName,
     };
+    console.log(params);
     const onSuccess = ({ data }) => {
       // console.log(data);
       setdevicesList(data);

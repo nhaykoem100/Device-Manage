@@ -54,13 +54,13 @@ function EditModalDevice(props) {
     console.log("data sau khi edit device by admin:", v, clone);
     // console.log("clone:", clone);
     const onSuccess = ({ data }) => {
-      notifiSuccess("Add successfully!");
+      notifiSuccess("Edi successfully!");
       setShowEditModal(false);
       props.updateEdit(v);
     };
     const onFailure = (err) => {
       console.log(err);
-      notifiError("Add failed!");
+      notifiError("Edit failed!");
     };
     userAPI.editDevice(v.id, clone).then(onSuccess).catch(onFailure);
   };
